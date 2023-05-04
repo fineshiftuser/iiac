@@ -25,4 +25,4 @@ spec:
             initialDelaySeconds: 2
             periodSeconds: 10
           securityContext:
-            runAsNonRoot: true
+            runAsUser: ≥ 10000
